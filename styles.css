@@ -1,0 +1,176 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #060606f1;
+    color:black;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color:white;
+}
+
+.subheadline {
+    font-size: 1.2rem;
+    color:white;
+}
+
+.webinar-details {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: white;
+    background-image: url("https://cdn.dribbble.com/users/2977519/screenshots/6765744/mobile-app-design-dribbble.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+    
+/* Takeaways Section */
+.takeaways {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.takeaways h2 {
+    font-size: 1.8rem;
+    color: #0f0e0e;
+    margin-bottom: 10px;
+}
+
+.takeaways ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.takeaways li {
+    margin-bottom: 10px;
+}
+
+/* Speaker Section */
+.speaker {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.speaker h2 {
+    font-size: 1.8rem;
+    color:white;
+}
+.speaker p,p{
+    color: white;
+}
+
+.speaker img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* Registration Form */
+.registration {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(122, 44, 44, 0.97);
+    margin: 40px 0;
+    text-align: center;
+    background-image: url("https://www.buzzybrains.com/images/Hybrid-Mobile-App-Development-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.registration h2 {
+    font-size: 1.8rem;
+    color: #f6f7f9;
+    margin-bottom: 20px;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color:whitesmoke;
+}
+
+.registration input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration button {
+    padding: 10px 20px;
+    background-color: #f8a50a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.registration button:hover {
+    background-color: #f8a50a;
+}
+
+/* Why Attend Section */
+.why-attend {
+    margin: 40px 0;
+    background-color: #eef1f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.why-attend h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+.why-attend p {
+    color: black;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

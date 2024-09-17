@@ -1,0 +1,99 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background for the entire page */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231001/pngtree-completed-to-do-list-icon-a-3d-rendering-of-a-notebook-image_13576111.png'); /* Replace with the actual path of your wooden background */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container for centering content inside the background */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Scroll design for the to-do list */
+.scroll {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bdc933107935847.5fb2c629eadc2.gif'); /* Replace with the actual path of your scroll image */
+    background-size:500px 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 500px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Task list styling */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+li.completed .task-text {
+    text-decoration: line-through;
+    color: rgb(6, 6, 6);
+}
+
+/* Input and button styles */
+.input-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
